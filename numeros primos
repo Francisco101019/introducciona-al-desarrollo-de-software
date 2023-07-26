@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+
+  
+{
+ 
+  
+    int num;
+    
+ printf("introduzca un numero para saber si es primo o no\n");
+scanf("%d",&num);
+
+if(num==3||num==5|| num==2)
+printf("este numero es  primo\n");
+else 
+{
+if(num%3!=0 && num%5!=0 )
+printf("este numero es  primo\n");
+
+else
+printf("este numero no es primo\n");
+}
+
+
+
+    return 0;
+}
