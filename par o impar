@@ -1,11 +1,12 @@
-#include <stdio.h>
+
+   #include <stdio.h>
 void main()
 
   
 {
  
   
-    int num;
+    void num;
     
  printf("introduzca un numero para saber si es par o impar\n");
 scanf("%d", &num);
