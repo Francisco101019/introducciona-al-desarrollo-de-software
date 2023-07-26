@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main()
+
+  
+{
+ 
+  
+    int num,num2,num3,num4,rt1,rt2,rt3,inv;
+    
+ printf("introduzca un numero entero positivo de 4 digitos\n");
+scanf("%d",&num);
+
+//creamos variables que se utilizaran prosteriomente para realizar la conversion  
+
+num2=num/10;
+num3=num2/10;
+num4=num3/10;
+
+//aqui se guardan las siguientes variables que son los restos de la division para realizar la inversion 
+
+rt1=num%10;
+rt2=num2%10;
+rt3=num3%10;
+
+//realizamos la conversion ahora multiplicando para poder obtener el numero inverso
+
+inv=rt1*1000+rt2*100+rt3*10+num4;
+ 
+ printf("el numero inverso es %d\n",inv);
+
+    return 0;
+}
